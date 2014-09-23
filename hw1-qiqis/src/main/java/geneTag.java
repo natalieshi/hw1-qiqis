@@ -10,8 +10,8 @@ import org.apache.uima.jcas.tcas.Annotation;
 
 
 /** the type for gene
- * Updated by JCasGen Mon Sep 22 21:39:47 EDT 2014
- * XML source: /Users/shiqiqi/git/hw1-qiqis/hw1-qiqis/hw1-qiqis/src/main/resources/aeDescriptor.xml
+ * Updated by JCasGen Tue Sep 23 15:33:42 EDT 2014
+ * XML source: /Users/shiqiqi/git/hw1-qiqis/hw1-qiqis/hw1-qiqis/src/main/resources/newcollectionReaderDescriptor.xml
  * @generated */
 public class geneTag extends Annotation {
   /** @generated

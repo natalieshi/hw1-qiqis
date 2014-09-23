@@ -35,12 +35,13 @@ public class CasCustomer extends CasConsumer_ImplBase {
       e1.printStackTrace();
     }
     FSIterator<Annotation> it = jcas.getAnnotationIndex(geneTag.type).iterator();
-    if(it.hasNext())
+    while(it.hasNext())
     {
       geneTag gt=(geneTag) it.next();
       
       try {
         bw.write(gt.getId()+"|"+gt.getBegin()+" "+gt.getEnd()+" "+gt.getGeneName());
+        bw.newLine();
       } catch (IOException e) {
         // TODO Auto-generated catch block
         e.printStackTrace();
