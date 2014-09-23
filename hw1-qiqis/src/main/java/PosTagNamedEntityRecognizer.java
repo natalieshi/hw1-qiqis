@@ -4,6 +4,8 @@ import java.util.List;
 import java.util.Map;
 import java.util.Properties;
 
+import javax.crypto.spec.PSource;
+
 import org.apache.uima.resource.ResourceInitializationException;
 
 import edu.stanford.nlp.ling.CoreAnnotations.PartOfSpeechAnnotation;
