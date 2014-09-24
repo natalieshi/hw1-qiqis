@@ -2,8 +2,8 @@
 
 <typeSystemDescription xmlns="http://uima.apache.org/resourceSpecifier">
     <name>TutorialTypeSystem</name>
-    <description>Type System Definition for the tutorial examples -
-        as of Exercise 1</description>
+    <description>include types for input and output elements:the id and text of each sentence 
+                                 start and end and id of gene tags</description>
     <version>1.0</version>
     <vendor>Apache Software Foundation</vendor>
   <types>
@@ -14,8 +14,7 @@
     <features>
         <featureDescription>
           <name>id</name>
-          <description>the id for this sentence
-</description>
+          <description>the id for this sentence</description>
           <rangeTypeName>uima.cas.String</rangeTypeName>
         </featureDescription>
         <featureDescription>
@@ -47,7 +46,7 @@
         </featureDescription>
         <featureDescription>
           <name>geneName</name>
-          <description>the geneName </description>
+          <description>the geneName</description>
           <rangeTypeName>uima.cas.String</rangeTypeName>
         </featureDescription>
       </features>

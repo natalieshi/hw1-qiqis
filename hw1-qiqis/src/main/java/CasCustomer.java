@@ -19,7 +19,8 @@ public class CasCustomer extends CasConsumer_ImplBase {
   @Override
   public void processCas(CAS arg0) throws ResourceProcessException {
     // TODO Auto-generated method stub
-    File f= new File("/Users/shiqiqi/git/hw1-qiqis/hw1-qiqis/hw1-qiqis/src/main/resources/data/Newsample.out");
+    System.out.println("bbb");
+    File f= new File("src/main/resources/data/Newsample.out");
     BufferedWriter bw = null;
     try {
       bw = new BufferedWriter(new FileWriter(f));
