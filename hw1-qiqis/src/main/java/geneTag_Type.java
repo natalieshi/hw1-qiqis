@@ -19,7 +19,7 @@ public class geneTag_Type extends Annotation_Type {
   /** @generated 
    * @return the generator for this type
    */
-  @Override
+ 
   protected FSGenerator getFSGenerator() {return fsGenerator;}
   /** @generated */
   private final FSGenerator fsGenerator = 

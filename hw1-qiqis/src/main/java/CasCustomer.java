@@ -31,7 +31,7 @@ public class CasCustomer extends CasConsumer_ImplBase {
    * @param CAS It provides access to the type system, to indexes, iterators and filters (constraints)
    * @exception ResourceProcessException
    */
-  @Override
+
   public void processCas(CAS arg0) throws ResourceProcessException {
     // TODO Auto-generated method stub
     File f= new File("hw1-qiqis.out");

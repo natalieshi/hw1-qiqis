@@ -45,7 +45,6 @@ public class CollectionReader extends CollectionReader_ImplBase {
    *         It also lets you create new annotations and other data structures
    * @throws IOException, CollectionException
    */
-  @Override
   public void getNext(CAS aCAS) throws IOException, CollectionException {
     // TODO Auto-generated method stub
 /*    try {
@@ -80,7 +79,6 @@ public class CollectionReader extends CollectionReader_ImplBase {
    *                 No: no line more
    * @throws IOException, CollectionException
    */
-  @Override
   public boolean hasNext() throws IOException, CollectionException {
     // TODO Auto-generated method stub
     tmp=reader.readLine();//line-by-line collection reader
