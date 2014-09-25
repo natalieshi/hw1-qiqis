@@ -40,7 +40,7 @@
           <rangeTypeName>uima.cas.Integer</rangeTypeName>
         </featureDescription>
         <featureDescription>
-          <name>end</name>
+          <name>ed</name>
           <description>the end point of geneTag</description>
           <rangeTypeName>uima.cas.Integer</rangeTypeName>
         </featureDescription>

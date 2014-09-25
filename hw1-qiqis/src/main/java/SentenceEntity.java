@@ -5,7 +5,11 @@ import org.apache.uima.analysis_engine.AnalysisEngineProcessException;
 import org.apache.uima.collection.CollectionException;
 import org.apache.uima.jcas.JCas;
 
-
+/**
+ * I have moved this function to CollectionReader
+ * @author shiqiqi
+ *
+ */
 public class SentenceEntity extends JCasAnnotator_ImplBase {
 
   @Override

@@ -10,8 +10,8 @@ import org.apache.uima.jcas.tcas.Annotation;
 
 
 /** the type for gene
- * Updated by JCasGen Tue Sep 23 15:33:42 EDT 2014
- * XML source: /Users/shiqiqi/git/hw1-qiqis/hw1-qiqis/hw1-qiqis/src/main/resources/newcollectionReaderDescriptor.xml
+ * Updated by JCasGen Wed Sep 24 18:36:07 EDT 2014
+ * XML source: /Users/shiqiqi/git/hw1-qiqis/hw1-qiqis/hw1-qiqis/src/main/resources/TypeSystemDescriptor/TypeSystemDescriptor.xml
  * @generated */
 public class geneTag extends Annotation {
   /** @generated
@@ -118,25 +118,25 @@ public class geneTag extends Annotation {
    
     
   //*--------------*
-  //* Feature: end
+  //* Feature: ed
 
-  /** getter for end - gets the end point of geneTag
+  /** getter for ed - gets the end point of geneTag
    * @generated
    * @return value of the feature 
    */
-  public int getEnd() {
-    if (geneTag_Type.featOkTst && ((geneTag_Type)jcasType).casFeat_end == null)
-      jcasType.jcas.throwFeatMissing("end", "geneTag");
-    return jcasType.ll_cas.ll_getIntValue(addr, ((geneTag_Type)jcasType).casFeatCode_end);}
+  public int getEd() {
+    if (geneTag_Type.featOkTst && ((geneTag_Type)jcasType).casFeat_ed == null)
+      jcasType.jcas.throwFeatMissing("ed", "geneTag");
+    return jcasType.ll_cas.ll_getIntValue(addr, ((geneTag_Type)jcasType).casFeatCode_ed);}
     
-  /** setter for end - sets the end point of geneTag 
+  /** setter for ed - sets the end point of geneTag 
    * @generated
    * @param v value to set into the feature 
    */
-  public void setEnd(int v) {
-    if (geneTag_Type.featOkTst && ((geneTag_Type)jcasType).casFeat_end == null)
-      jcasType.jcas.throwFeatMissing("end", "geneTag");
-    jcasType.ll_cas.ll_setIntValue(addr, ((geneTag_Type)jcasType).casFeatCode_end, v);}    
+  public void setEd(int v) {
+    if (geneTag_Type.featOkTst && ((geneTag_Type)jcasType).casFeat_ed == null)
+      jcasType.jcas.throwFeatMissing("ed", "geneTag");
+    jcasType.ll_cas.ll_setIntValue(addr, ((geneTag_Type)jcasType).casFeatCode_ed, v);}    
    
     
   //*--------------*

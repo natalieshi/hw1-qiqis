@@ -13,7 +13,7 @@ import org.apache.uima.cas.Feature;
 import org.apache.uima.jcas.tcas.Annotation_Type;
 
 /** the type for gene
- * Updated by JCasGen Tue Sep 23 15:33:42 EDT 2014
+ * Updated by JCasGen Wed Sep 24 18:36:07 EDT 2014
  * @generated */
 public class geneTag_Type extends Annotation_Type {
   /** @generated 
@@ -96,26 +96,26 @@ public class geneTag_Type extends Annotation_Type {
   
  
   /** @generated */
-  final Feature casFeat_end;
+  final Feature casFeat_ed;
   /** @generated */
-  final int     casFeatCode_end;
+  final int     casFeatCode_ed;
   /** @generated
    * @param addr low level Feature Structure reference
    * @return the feature value 
    */ 
-  public int getEnd(int addr) {
-        if (featOkTst && casFeat_end == null)
-      jcas.throwFeatMissing("end", "geneTag");
-    return ll_cas.ll_getIntValue(addr, casFeatCode_end);
+  public int getEd(int addr) {
+        if (featOkTst && casFeat_ed == null)
+      jcas.throwFeatMissing("ed", "geneTag");
+    return ll_cas.ll_getIntValue(addr, casFeatCode_ed);
   }
   /** @generated
    * @param addr low level Feature Structure reference
    * @param v value to set 
    */    
-  public void setEnd(int addr, int v) {
-        if (featOkTst && casFeat_end == null)
-      jcas.throwFeatMissing("end", "geneTag");
-    ll_cas.ll_setIntValue(addr, casFeatCode_end, v);}
+  public void setEd(int addr, int v) {
+        if (featOkTst && casFeat_ed == null)
+      jcas.throwFeatMissing("ed", "geneTag");
+    ll_cas.ll_setIntValue(addr, casFeatCode_ed, v);}
     
   
  
@@ -163,8 +163,8 @@ public class geneTag_Type extends Annotation_Type {
     casFeatCode_start  = (null == casFeat_start) ? JCas.INVALID_FEATURE_CODE : ((FeatureImpl)casFeat_start).getCode();
 
  
-    casFeat_end = jcas.getRequiredFeatureDE(casType, "end", "uima.cas.Integer", featOkTst);
-    casFeatCode_end  = (null == casFeat_end) ? JCas.INVALID_FEATURE_CODE : ((FeatureImpl)casFeat_end).getCode();
+    casFeat_ed = jcas.getRequiredFeatureDE(casType, "ed", "uima.cas.Integer", featOkTst);
+    casFeatCode_ed  = (null == casFeat_ed) ? JCas.INVALID_FEATURE_CODE : ((FeatureImpl)casFeat_ed).getCode();
 
  
     casFeat_geneName = jcas.getRequiredFeatureDE(casType, "geneName", "uima.cas.String", featOkTst);

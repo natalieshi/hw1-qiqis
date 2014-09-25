@@ -10,8 +10,8 @@ import org.apache.uima.jcas.tcas.Annotation;
 
 
 /** The Type for sentences
- * Updated by JCasGen Tue Sep 23 15:33:42 EDT 2014
- * XML source: /Users/shiqiqi/git/hw1-qiqis/hw1-qiqis/hw1-qiqis/src/main/resources/newcollectionReaderDescriptor.xml
+ * Updated by JCasGen Wed Sep 24 18:36:07 EDT 2014
+ * XML source: /Users/shiqiqi/git/hw1-qiqis/hw1-qiqis/hw1-qiqis/src/main/resources/TypeSystemDescriptor/TypeSystemDescriptor.xml
  * @generated */
 public class sentencesTag extends Annotation {
   /** @generated
